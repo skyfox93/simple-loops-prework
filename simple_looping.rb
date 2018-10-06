@@ -5,8 +5,8 @@ def loop_iterator(number_of_times)
   loop do
     puts "Welcome to Flatiron School's Web Development Course!"
     count+=1;
-  break if count=number_of_times
-  
+  break if count==number_of_times
+end
 end
   # Code your solution here using the "loop" keyword to puts out the below phrase
   # This and all the other methods take an argument of an integer 
@@ -20,7 +20,7 @@ def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
   phrase = "Welcome to Flatiron School's Web Development Course!"
   number_of_times.times do 
-    puts "#{phrase}""
+    puts "#{phrase}"
   end
 end
 
@@ -29,7 +29,8 @@ def while_iterator(number_of_times)
   while number_of_times<counter
     phrase = "Welcome to Flatiron School's Web Development Course!"
     puts phrase
-  end
+    counter+=1
+    end
 end
 
 def until_iterator(number_of_times)
