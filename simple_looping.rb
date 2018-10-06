@@ -28,7 +28,7 @@ def while_iterator(number_of_times)
   counter=0
   while number_of_times<counter do
     phrase = "Welcome to Flatiron School's Web Development Course!"
-    puts phrase
+    puts "#{phrase}"
     counter+=1
     end
 end
